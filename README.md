@@ -17,10 +17,10 @@ The header dependencies are contained in the PatchOperator and Include folders.
 To run the code you will also need to install following libraries:
 
 - Eigen: http://eigen.tuxfamily.org/index.php?title=Main_Page
-- libigl: <"https://github.com/libigl/libigl">
-- glew: <"http://glew.sourceforge.net/">
-- GLFW: <"https://www.glfw.org/">
-- nanoflann: <"https://github.com/jlblancoc/nanoflann">
+- libigl: https://github.com/libigl/libigl
+- glew: http://glew.sourceforge.net
+- GLFW: https://www.glfw.org/
+- nanoflann: https://github.com/jlblancoc/nanoflann
 
 and link the following ".lib" files
 
@@ -33,11 +33,11 @@ form glew and glfw.
 
 The python part is based on Keras with a tensorflow backend. Visit
 
-<"https://www.tensorflow.org/install/">
+https://www.tensorflow.org/install/
 
 and 
 
-<"https://keras.io/#installation">
+https://keras.io/#installation
 
 for more details on the instalation.
 
