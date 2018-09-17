@@ -16,7 +16,7 @@ The entry point for the C++ is the main.cpp file in the ShapeAnalysis folder.
 The header dependencies are contained in the PatchOperator and Include folders.
 To run the code you will also need to install following libraries:
 
-- Eigen: <"http://eigen.tuxfamily.org/index.php?title=Main_Page">
+- Eigen: "http://eigen.tuxfamily.org/index.php?title=Main_Page"
 - libigl: <"https://github.com/libigl/libigl">
 - glew: <"http://glew.sourceforge.net/">
 - GLFW: <"https://www.glfw.org/">
