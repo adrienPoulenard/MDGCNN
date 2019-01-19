@@ -73,7 +73,7 @@ The target directory "dataset_path" must contain the following subfolders struct
 - contributors_weights
 - transported_angles
 - parent_vertices
-- labels
+- angular_shifts
 
 To train MDGCNN for segmentation / or matching tasks, use the function 'heterogeneous_dataset' 
 in 'MDGCNN/train_network.py'.
