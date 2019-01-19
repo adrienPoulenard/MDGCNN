@@ -1,13 +1,12 @@
 # MDGCNN
-Multi Directional Geodesic Convolutional Neural Networks
+Multi Directional Geodesic Convolutional Neural Networks (MDGCNN)
 
 ### Introduction
+
+
 This code implements the Multi Directional Geodesic Convolutional Neural Networks (MDGCNN) described in our 
-"Multi-directional Geodesic Neural Networks via Equivariant Convolution" article. 
-(or MDGCNN) uses layers of directional convolution followed by an angular max pooling operator to transform 
-input signals on meshes into point-wise or global predictions in segmentation or classification tasks.
-Directional convolution is based on local windows at each vertex. To the windows consist of weighted contributors 
-together with parallel transport of angle from their origin vertex.
+"Multi-directional Geodesic Neural Networks via Equivariant Convolution" article. MDGCNN is a general framework for learning signals on traingle meshes. MDGCNN tackles the problem of rotational ambiguity in the definition of intrinsic convolution through local geodesic polar coordinates. It is based on the notion of directional convolution layers transforming directional signals on the mesh that depends on both the vertex and a tangent direction at the vertex into a new directional signal by convolving it by a learnable kernel.
+MDGCNN uses stacks of directional convolution layers and converts the final result into point-wise or global prediction that can be used for segmentation or classification tasks.
 
 ### Instalation
 The code is divided in two parts: A C++ part for data preprocessing and formatting the data 
@@ -29,7 +28,7 @@ and link the following ".lib" files
 - glfw3.lib
 - glew32s.lib
 
-form glew and glfw.
+form glew and glfw libraries.
 
 The python part is based on Keras with a tensorflow backend. Visit
 
