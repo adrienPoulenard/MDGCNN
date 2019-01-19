@@ -5,8 +5,8 @@ Multi Directional Geodesic Convolutional Neural Networks (MDGCNN)
 
 
 This code implements the Multi Directional Geodesic Convolutional Neural Networks (MDGCNN) described in our 
-"Multi-directional Geodesic Neural Networks via Equivariant Convolution" article. MDGCNN is a general framework for learning signals on traingle meshes. It tackles the problem of rotational ambiguity in the definition of intrinsic convolution through local geodesic polar coordinates. It is based on the notion of directional convolution layers transforming a directional signal on the mesh which depends on both the vertex and a tangent direction at the vertex into a new directional signal by convolving it by a learnable kernel.
-MDGCNN uses stacks of directional convolution layers and converts the final result into point-wise or global prediction that can be used for segmentation or classification tasks.
+"Multi-directional Geodesic Neural Networks via Equivariant Convolution" article. MDGCNN is a general framework for learning signals on triangle meshes. It tackles the problem of rotational ambiguity in the definition of intrinsic convolution through local geodesic polar coordinates. It is based on the notion of directional convolution layers transforming a directional signal on the mesh which depends on both the vertex and a tangent direction at the vertex into a new directional signal by convolving it by a learnable kernel.
+MDGCNN uses stacks of directional convolution layers and converts the final result into a point-wise or a global prediction that can be used for segmentation or classification tasks.
 
 ### Instalation
 The code is divided in two parts: A C++ part for data preprocessing and formatting the data 
